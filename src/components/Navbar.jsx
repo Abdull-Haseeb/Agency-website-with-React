@@ -1,10 +1,10 @@
-import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 import SignUp from "./SignUp";
 import PricingPage from "../pages/PricingPage";
 import AboutPage from "../pages/AboutPage";
 
 import SignIn from "./SignIn";
+import { useState } from "react";
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 

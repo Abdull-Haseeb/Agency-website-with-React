@@ -1,15 +1,23 @@
-import React from "react";
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
 import Features from "../components/Features";
-// import SignUp from "./../components/SignUp";
-// import { Routes, Route } from "react-router-dom";
+
+import Blog from "../components/Blog";
+import Team from "./../components/Team";
+import Statistic from "../components/Statistic";
+import { Faq } from "./../components/Faq";
+import Footer from "../components/Footer";
 const HomePage = () => {
   return (
     <>
       <Navbar />
       <Header />
-      <Features id="features" />
+      <Features />
+      <Blog />
+      <Team />
+      <Statistic />
+      <Faq />
+      <Footer />
     </>
   );
 };
